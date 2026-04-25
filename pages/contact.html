@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FocusFrame - Contact</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="../styles/contact.css">
+    <link rel="stylesheet" href="../styles/header_footer.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="site-header">
+        <div class="logo">
+            <i class="fa-solid fa-camera-retro"></i>
+            <span>FocusFrame</span>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="services.html">SERVICES</a></li>
+                <li><a href="contact.html" class="active">CONTACT</a></li>
+            </ul>
+            <a href="contact.html" class="btn-primary header-btn">BOOK A SESSION</a>
+
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>LET'S CONNECT</h1>
+        <p>Ready To Book A Session Or Have Questions About Our Services? Fill Out The Form<br>Below And We'll Get Back To You Within 24 Hours.</p>
+    </section>
+
+    <!-- Main Content: Form and Info -->
+    <main class="contact-container">
+        
+        <!-- Left Side: Form -->
+        <div class="form-section">
+            <h2 class="form-title">BOOK A SESSION</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="email">EMAIL *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="fullname">FULL NAME *</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group half-width">
+                        <label for="event-type">EVENT TYPE *</label>
+                        <select id="event-type" name="event-type" required>
+                            <option value="">Select...</option>
+                            <option value="wedding">Wedding</option>
+                            <option value="brand">Brand/Product</option>
+                            <option value="lifestyle">Lifestyle/Portrait</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="event-date">EVENT DATE</label>
+                        <input type="date" id="event-date" name="event-date">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="budget">APPROXIMATE BUDGET</label>
+                    <input type="text" id="budget" name="budget">
+                </div>
+
+                <div class="form-group">
+                    <label for="project-details">TELL US ABOUT YOUR PROJECT *</label>
+                    <textarea id="project-details" name="project-details" rows="5" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="source">HOW DID YOU HEAR ABOUT US?</label>
+                    <input type="text" id="source" name="source" placeholder="Instagram, TikTok, Google search, etc.">
+                </div>
+
+                <button type="submit" class="btn-submit">SEND INQUIRY</button>
+            </form>
+        </div>
+
+        <!-- Right Side: Information -->
+        <aside class="info-section">
+            
+            <div class="info-block">
+                <h2>Get In Touch</h2>
+                <div class="contact-list">
+                    <div class="contact-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <div class="item-text">
+                            <span class="label">EMAIL</span>
+                            <a href="mailto:focusframe.studio@gmail.com" class="highlight">focusframe.studio@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="item-text">
+                            <span class="label">PHONE</span>
+                            <a href="tel:+251912345678" class="highlight">+251 912345678</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fa-brands fa-instagram"></i>
+                        <div class="item-text">
+                            <span class="label">INSTAGRAM</span>
+                            <a href="https://instagram.com/focusframe.studio" class="highlight">@focusframe.studio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info-block border-top">
+                <h2>Studio Location</h2>
+                <p class="highlight-text">
+                    Based In Addis Ababa, Ethiopia<br>
+                    Available For Projects Worldwide
+                </p>
+            </div>
+
+            <div class="info-block border-top">
+                <h2>Office Hours</h2>
+                <ul class="hours-list">
+                    <li><span class="day">Monday -</span> <span class="highlight-text">Friday: 9:00 AM - 6:00 PM</span></li>
+                    <li><span class="day">Saturday:</span> <span class="highlight-text">By Appointment</span></li>
+                    <li><span class="day">Sunday:</span> <span class="highlight-text">Closed</span></li>
+                </ul>
+            </div>
+
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-col brand-col">
+                <h3>FOCUSFRAME</h3>
+                <p>EDITORIAL PHOTOGRAPHY AND CINEMATIC VIDEOGRAPHY FOR STORIES WORTH TELLING.</p>
+            </div>
+            
+            <div class="footer-col nav-col">
+                <h3>NAVIGATION</h3>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col services-col">
+                <h3>SERVICES</h3>
+                <ul>
+                    <li><a href="wedding-photography.html">WEDDING PHOTOGRAPHY</a></li>
+                    <li><a href="brand-campaigns.html">BRAND CAMPAIGNS</a></li>
+                    <li><a href="lifestyle-portraits.html">LIFESTYLE PORTRAITS</a></li>
+                    <li><a href="cinematic-video.html">CINEMATIC VIDEO</a></li>
+                    <li><a href="product-photography.html">PRODUCT PHOTOGRAPHY</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col contact-col">
+                <h3>CONTACT</h3>
+                <ul>
+                    <li><i class="fa-regular fa-envelope"></i> <a href="mailto:focusframe.studio@gmail.com">focusframe.studio@gmail.com</a></li>
+                    <li><i class="fa-brands fa-instagram"></i> <a href="https://instagram.com/focusframe.studio">@focusframe.studio</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 FOCUSFRAME MEDIA.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
