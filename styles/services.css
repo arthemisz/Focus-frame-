@@ -4,10 +4,10 @@
     --text-dark: #1a1a1a;
     --text-light: #555555;
     --bg-light: #ffffff;
-    --bg-gray: #dfdfdf; /* Match Add-on bg */
+    --bg-gray: #dfdfdf; 
     --footer-bg: #050505;
     --green-tag: #008f11;
-    --btn-grey: #e2e2e2;
+    --btn-grey: #e5e5e5;
     --blue-check: #6ea7f0;
     
     --font-heading: 'Playfair Display', serif;
@@ -68,7 +68,7 @@ ul { list-style: none; }
     margin: 0 auto 100px;
     display: flex;
     justify-content: center;
-    align-items: stretch; /* Make them equal height where possible */
+    align-items: stretch; 
     gap: 40px;
     padding: 0 20px;
 }
@@ -118,7 +118,7 @@ ul { list-style: none; }
 }
 
 .price-discount {
-    margin-bottom: -5px; /* Pull it closer to the main price */
+    margin-bottom: -5px; 
     font-size: 1.4rem;
     display: flex;
     align-items: center;
@@ -137,9 +137,8 @@ ul { list-style: none; }
     font-family: var(--font-body);
     font-size: 0.75rem;
     font-weight: 600;
-    padding: 4px 10px 4px 20px; /* Extra left padding for the cutout */
+    padding: 4px 10px 4px 20px; 
     position: relative;
-    /* Creates the ribbon point on the left side */
     clip-path: polygon(15px 50%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
 }
 
@@ -151,7 +150,7 @@ ul { list-style: none; }
 
 .features-list {
     margin-bottom: 40px;
-    flex-grow: 1; /* Pushes button to bottom */
+    flex-grow: 1; 
 }
 
 .features-list li {
@@ -173,7 +172,7 @@ ul { list-style: none; }
     border: 1px solid var(--blue-check);
     color: var(--blue-check);
     font-size: 10px;
-    margin-top: 4px; /* Align with text */
+    margin-top: 4px; 
     flex-shrink: 0;
 }
 
@@ -197,7 +196,10 @@ ul { list-style: none; }
     background-color: var(--btn-grey);
     color: black;
 }
-.btn-secondary:hover { background-color: #d0d0d0; }
+.btn-secondary:hover { 
+    background-color: #d0d0d0; 
+    color: black;
+}
 
 .btn-black {
     background-color: black;
@@ -205,14 +207,13 @@ ul { list-style: none; }
 }
 .btn-black:hover { background-color: #333; }
 
-/* --- Add-Ons Section --- */
 .add-ons-section {
     background-color: var(--bg-gray);
     padding: 80px 20px;
 }
 
 .add-ons-container {
-    max-width: 1000px; /* Slightly narrower than max width */
+    max-width: 1000px; 
     margin: 0 auto;
 }
 
@@ -255,7 +256,7 @@ ul { list-style: none; }
 .included-container h2 {
     font-family: var(--font-heading);
     font-size: 3rem;
-    font-weight: 600; /* Bolder in image */
+    font-weight: 600; 
     margin-bottom: 10px;
 }
 
@@ -294,7 +295,7 @@ ul { list-style: none; }
     font-family: var(--font-heading);
     font-size: 3.5rem;
     font-weight: 400;
-    font-style: italic; /* Important for this section */
+    font-style: italic; 
     margin-bottom: 30px;
 }
 
