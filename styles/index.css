@@ -89,7 +89,7 @@ h1, h2, h3, h4 {
             rgba(65, 60, 55, 0.6) 0%,   
             rgba(235, 175, 45, 0.85) 100% 
         ),
-        url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqnpnzRVirXQhmtV2TitUYNJbs4T0OBtAdQ&s'); /* Replace with your image path */
+        url('../gallery/front.jpg'); /* Replace with your image path */
     
     background-size: cover;
     background-position: center;
